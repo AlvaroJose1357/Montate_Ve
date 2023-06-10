@@ -6,9 +6,9 @@ import Thomas from "../img/Thomas.png";
 
 export default function Hero() {
   return (
-    <section className="h-[100vh] grid grid-flow-cols-1 md:grid-cols-8">
-      <div className="bg-[#143959] md:col-span-5 flex items-start justify-left p-8">
-        <div>
+    <section className="grid grid-flow-cols-1 md:grid-cols-8 w-full max-h-full">
+      <div className="bg-[#143959] md:col-span-5 flex items-start justify-left p-8 max-w-full max-h-full ">
+        <div className=" max-w-full max-h-full ">
           <h1 className="text-white text-8xl font-bold">¡Bienvenidos!</h1>
           <p className=" text-gray-500 text-xl leading-[rem] p-9">
             En nuestro taller especializado en el cuidado y mantenimiento de
@@ -65,7 +65,6 @@ export default function Hero() {
               </p>
             </div>
           </div>
-
           <h2 className="text-orange-500 text-4xl font-bold p-12">
             Preguntas Frecuentes
           </h2>
