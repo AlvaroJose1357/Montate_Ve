@@ -8,6 +8,7 @@ import P_inicio from "./pages/P_inicio";
 import Servicios from "./pages/Servicios";
 import Agendamiento from "./pages/Agendamiento";
 import Login from "./pages/Login";
+import CrearCuenta from "./pages/CrearCuenta";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/Servicios" element={<Servicios/>} />
         <Route path="/Agendamiento" element={<Agendamiento/>} />
         <Route path="/Login" element={<Login/>} />
+        <Route path="/CrearCuenta" element={<CrearCuenta/>} />
         </Routes>
       </div>
       <Footer />
