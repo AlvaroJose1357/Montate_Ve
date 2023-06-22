@@ -15,7 +15,7 @@ export default function App() {
     <>
     <BrowserRouter>
       <Navbar />
-      <div className="flex w-full">
+      <div>
         <Routes>
         <Route path="/" element={<P_inicio/>} />
         <Route path="/Servicios" element={<Servicios/>} />
