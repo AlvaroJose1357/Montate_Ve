@@ -17,7 +17,7 @@ const Navbar = () => {
         <Link to="/"  className=" flex items-center cursor-pointer hover:bg-slate-300">
         Inicio <BiHomeCircle/>
         </Link>
-        <Link to="/Servicio" className=" flex items-center cursor-pointer  hover:bg-slate-300">
+        <Link to="/Servicios" className=" flex items-center cursor-pointer  hover:bg-slate-300">
         Servicios <BsTools />
         </Link>
         <Link to="/Agendamiento" className="flex items-center cursor-pointer  hover:bg-slate-300"> 

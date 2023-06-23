@@ -6,13 +6,13 @@ const CrearCuenta = () => {
   const onSubmit = (data) => {
     console.log(data);
   };
-  const nombreValue2 = watch('nombre');
+  
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <div className="max-w-md px-6 py-4 bg-white shadow-md">
         <h2 className="text-2xl font-semibold mb-4">Crear una cuenta</h2>
-        <p>Hola {} , Bienvenido a Montate Ve!</p>
+        <p>Hola  , Bienvenido a Montate Ve!</p>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="mb-4">
             <label className="block mb-2">Nombres</label>

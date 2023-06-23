@@ -6,7 +6,7 @@ import { FaFacebook, FaWhatsapp, FaInstagram} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#FF914D] p-8 xl:p-20">
+    <footer className="bg-gray-500 p-8 xl:p-20">
         <div className="container mx-auto lg:px-10 flex justify-around">
             <div className="flex flex-col md:flex-row items-center space-x-24">
                 <div className="flex w-full object-scale-down justify-center"> {/*Logo */}

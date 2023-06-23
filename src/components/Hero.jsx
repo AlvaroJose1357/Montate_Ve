@@ -7,10 +7,10 @@ import Thomas from "../img/Thomas.png";
 export default function Hero() {
   return (
     <section className="grid grid-flow-cols-1 md:grid-cols-8 w-full max-h-full">
-      <div className="bg-[#143959] md:col-span-5 flex items-start justify-left p-8 max-w-full max-h-full ">
+      <div className="bg-slate-400 md:col-span-5 flex items-start justify-left p-8 max-w-full max-h-full ">
         <div className=" max-w-full max-h-full ">
-          <h1 className="text-white text-8xl font-bold">¡Bienvenidos!</h1>
-          <p className=" text-gray-500 text-xl leading-[rem] p-9">
+          <h1 className="text-black text-8xl font-bold">¡Bienvenidos!</h1>
+          <p className=" text-black text-xl leading-[rem] p-9">
             En nuestro taller especializado en el cuidado y mantenimiento de
             bicicletas, nos apasiona ayudarte a mantener tu bici en excelente
             estado y asegurarte de que sigas disfrutando de tus paseos y
@@ -25,26 +25,26 @@ export default function Hero() {
             técnicas avanzadas para garantizar que tu bicicleta reciba el mejor
             tratamiento posible.
           </p>
-          <h2 className="text-white text-4xl font-bold p-12">Datos Curiosos</h2>
+          <h2 className="text-black text-4xl font-bold p-12">Datos Curiosos</h2>
 
           <div className="flex max-w-4xl mx-auto gap-8 group">
-            <div className="bg-slate-400 duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale[0.85] hover:!scale-100 cursor-pointer p-8 rounded-xl mix-blend-luminosity">
+            <div className="bg-slate-600 duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale[0.85] hover:!scale-100 cursor-pointer p-8 rounded-xl mix-blend-luminosity">
               <img src={Primera} alt="Primera" className="h-30 mx-auto" />
               <h3 className="uppercase text-white text-xl font-bold">
                 Primer Prototipo
               </h3>
-              <p className=" text-gray-500 text-sm leading-7 my-3">
+              <p className=" text-slate-950 font-semibold  text-sm leading-7 my-3">
                 El primer prototipo de bicicleta fue diseñado por el alemán Karl
                 von Drais en 1817. Se le llamó Laufmaschine, que significa
                 literalmente "máquina de correr".
               </p>
             </div>
-            <div className=" bg-slate-400 duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale[0.85] hover:!scale-100 cursor-pointer p-8 rounded-xl mix-blend-luminosity">
+            <div className=" bg-slate-600 duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale[0.85] hover:!scale-100 cursor-pointer p-8 rounded-xl mix-blend-luminosity">
               <img src={Bartali} alt="Bartali" className="h-30 mx-auto" />
               <h3 className="uppercase text-white text-xl font-bold">
                 Ciclismo Salvó Vidas
               </h3>
-              <p className=" text-gray-500 text-sm leading-7 my-3">
+              <p className=" text-slate-950 text-sm leading-7 my-3">
                 {" "}
                 Gino Bartali, perteneció a una red clandestina en la que se
                 encargó de salvar a centenares de judíos de la barbarie Nazi. El
@@ -52,12 +52,12 @@ export default function Hero() {
                 para así ayudarlos a escapar.
               </p>
             </div>
-            <div className=" bg-slate-400 duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale[0.85] hover:!scale-100 cursor-pointer p-8 rounded-xl mix-blend-luminosity">
+            <div className=" bg-slate-600 duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale[0.85] hover:!scale-100 cursor-pointer p-8 rounded-xl mix-blend-luminosity">
               <img src={Thomas} alt="Thomas" className="h-30 mx-auto" />
               <h3 className="uppercase text-white text-xl font-bold">
                 Thomas Stevens
               </h3>
-              <p className=" text-gray-500 text-sm leading-7 my-3">
+              <p className=" text-slate-950 text-sm leading-7 my-3">
                 {" "}
                 El 7 de enero de 1877 el estadounidense Thomas Stevens realizó
                 el primer viaje en bicicleta alrededor del mundo. Tardó tres
@@ -65,7 +65,7 @@ export default function Hero() {
               </p>
             </div>
           </div>
-          <h2 className="text-orange-500 text-4xl font-bold p-12">
+          <h2 className="text-slate-700 text-4xl font-bold p-12">
             Preguntas Frecuentes
           </h2>
           <Accordion

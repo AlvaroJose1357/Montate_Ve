@@ -9,6 +9,7 @@ import Servicios from "./pages/Servicios";
 import Agendamiento from "./pages/Agendamiento";
 import Login from "./pages/Login";
 import CrearCuenta from "./pages/CrearCuenta";
+import {ToastContainer} from "react-toastify";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
       </div>
       <Footer />
     </BrowserRouter>
+    <ToastContainer/>
    </>
  );
 }
